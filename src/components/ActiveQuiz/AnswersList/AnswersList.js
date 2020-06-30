@@ -10,6 +10,7 @@ const AnswersList = props => (
             return (
                 <AnswerItem key={index} 
                     answer={answer}
+                    onAnswerClick={props.onAnswerClick}
                 />
             )
         })}
